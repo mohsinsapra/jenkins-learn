@@ -5,7 +5,7 @@ pipeline {
     stages{
         stage("build"){
             steps {
-                echo 'Building application....'
+                echo 'Building application.... this one from schedular'
             }
         }
         stage("test"){
